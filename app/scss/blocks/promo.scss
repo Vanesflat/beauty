@@ -1,0 +1,25 @@
+.promo {
+  display: flex;
+  align-items: center;
+  height: 604px;
+  color: $white;
+  background: url(../images/promo/promo-bg.png) no-repeat center;
+  margin-bottom: 80px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 310px;
+    min-height: 220px;
+  }
+
+  &__title {
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  &__text {
+    line-height: 1.4;
+  }
+}
