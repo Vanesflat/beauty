@@ -1,10 +1,8 @@
 .promo {
-  display: flex;
-  align-items: center;
-  height: 604px;
   color: $white;
   background: url(../images/promo/promo-bg.png) no-repeat center;
   margin-bottom: 80px;
+  padding: 192px 0;
 
   &__wrapper {
     display: flex;
