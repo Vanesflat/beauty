@@ -51,13 +51,15 @@ button {
 }
 
 .container {
-  width: 1130px;
+  max-width: 1130px;
+  width: 100%;
   padding: 0 10px;
   margin: 0 auto;
 }
 
 .main {
   flex-grow: 1;
+  background-color: $grey;
 }
 
 
@@ -68,3 +70,4 @@ button {
 @import "blocks/btn.scss";
 @import "blocks/back-call.scss";
 @import "blocks/promo.scss";
+@import "blocks/special-ads.scss";
