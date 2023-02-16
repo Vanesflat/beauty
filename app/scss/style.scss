@@ -1,3 +1,5 @@
+@import "vars.scss";
+
 html {
   box-sizing: border-box;
 }
@@ -11,6 +13,12 @@ body {
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.1;
 }
 
 a {
@@ -42,9 +50,20 @@ button {
   flex-direction: column;
 }
 
+.container {
+  width: 1130px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
 .main {
   flex-grow: 1;
 }
 
 
 @import "reset.scss";
+
+// blocks
+@import "blocks/header.scss";
+@import "blocks/btn.scss";
+@import "blocks/back-call.scss";

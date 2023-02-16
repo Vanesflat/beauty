@@ -1,0 +1,50 @@
+.header-top,
+.header-bottom,
+.header-top__menu,
+.header-bottom__menu {
+  display: flex;
+  justify-content: center;
+}
+
+.header-top {
+  align-items: center;
+  min-height: 50px;
+  background-color: $grey;
+  margin-bottom: 20px;
+
+  &__menu {
+    gap: 30px;
+  }
+}
+
+.header-bottom {
+  min-height: 150px;
+  margin-bottom: 30px;
+
+  &__menu {
+    gap: 40px;
+    font-size: 16px;
+  }
+
+  &__wrapper,
+  &__logo {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__wrapper {
+    margin-bottom: 70px;
+  }
+
+  &__logo {
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__title {
+    font-size: 36px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $green;
+  }
+}
