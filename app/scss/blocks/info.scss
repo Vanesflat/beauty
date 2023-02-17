@@ -1,0 +1,54 @@
+.info {
+  margin-bottom: 132px;
+
+  &__wrapper {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    flex-basis: 540px;
+    color: $white;
+    background-color: $green;
+    padding: 35px 40px;
+
+    &--decor {
+      position: relative;
+
+      &::after {
+        content: '';
+        width: 140px;
+        height: 140px;
+        position: absolute;
+        top: auto;
+        right: 45px;
+        background: url(../images/info/envelope.svg);
+      }
+    }
+  }
+
+  &__title {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  &__text {
+    line-height: 1.4;
+  }
+
+  &__input-mail {
+    min-width: 225px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 25px;
+
+    &::placeholder {
+      color: #c4c4c4;
+    }
+  }
+
+}
