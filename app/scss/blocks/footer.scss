@@ -1,0 +1,22 @@
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 37px 0;
+
+  &__address {
+    justify-self: center;
+  }
+}
+
+.footer-bottom {
+  font-size: 12px;
+  color: #828282;
+  background-color: $grey;
+  padding: 25px 0;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}
