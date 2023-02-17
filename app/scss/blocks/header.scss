@@ -1,7 +1,5 @@
 .header-top,
-.header-bottom,
-.header-top__menu,
-.header-bottom__menu {
+.header-bottom {
   display: flex;
   justify-content: center;
 }
@@ -11,20 +9,10 @@
   min-height: 50px;
   background-color: $grey;
   margin-bottom: 20px;
-
-  &__menu {
-    gap: 30px;
-    color: $dark;
-  }
 }
 
 .header-bottom {
   margin-bottom: 30px;
-
-  &__menu {
-    gap: 40px;
-    font-size: 16px;
-  }
 
   &__wrapper,
   &__logo {
