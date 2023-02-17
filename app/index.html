@@ -21,6 +21,13 @@
 
         <div class="container">
 
+          <button class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
           <nav class="nav nav--dark-text">
             <ul class="nav__list">
 
@@ -47,6 +54,58 @@
             </ul>
           </nav>
 
+          <nav class="mobile-menu">
+
+            <ul class="mobile-menu__list">
+
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__link" href="#">Доставка</a>
+              </li>
+
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__link" href="#">Оплата</a>
+              </li>
+
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__link" href="#">Отзывы</a>
+              </li>
+
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__link" href="#">Вопрос - ответ</a>
+              </li>
+
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__link" href="#">Контакты</a>
+              </li>
+
+              <p class="mobile-menu__title">Каталог</p>
+
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__link" href="#">Парикмахерская</a>
+              </li>
+
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__link" href="#">Барбершоп</a>
+              </li>
+
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__link" href="#">Маникюр</a>
+              </li>
+
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__link" href="#">Педикюр</a>
+              </li>
+
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__link" href="#">Массаж</a>
+              </li>
+
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__link" href="#">Мебель</a>
+              </li>
+            </ul>
+          </nav>
+
         </div>
 
       </div>
@@ -60,11 +119,13 @@
           <div class="header-bottom__wrapper">
 
             <div class="header-bottom__logo">
-              <img class="header-bottom__img" src="images/logo.svg" alt="Логотип">
+              <a class="header-bottom__link" href="#">
+                <img class="header-bottom__img" src="images/logo.svg" alt="Логотип">
+              </a>
               <h1 class="header-bottom__title">Beauty</h1>
             </div>
 
-            <div class="back-call">
+            <div class="header-bottom__back-call back-call">
               <p class="back-call__phone">8 (812) 123-45-67</p>
               <button class="btn btn--white">Обратный звонок</button>
             </div>
@@ -239,7 +300,7 @@
 
         <div class="footer-top">
 
-          <ul class="social-list">
+          <ul class="footer__social-list social-list">
             <li class="social-list__item">
               <a class="social-list__link" href="#">
                 <img class="social-list__img" src="images/social/youtube.svg" alt="YouTube">
@@ -266,7 +327,7 @@
             198555, Невский пр. 140, офис 140
           </p>
 
-          <div class="back-call">
+          <div class="footer-top__back-call back-call">
             <p class="back-call__phone">8 (812) 123-45-67</p>
             <button class="btn btn--white">Обратный звонок</button>
           </div>
