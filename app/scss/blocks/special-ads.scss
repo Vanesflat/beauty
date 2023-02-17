@@ -29,6 +29,13 @@
     text-align: center;
     background-color: $white;
     padding: 25px 30px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+
+    &:hover {
+      box-shadow: 0 0 8px -5px $dark;
+      transform: scale(1.02);
+    }
   }
 
   &__img {

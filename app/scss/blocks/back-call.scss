@@ -6,5 +6,11 @@
 
   &__phone {
     font-size: 16px;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      color: $green;
+      transform: scale(1.1);
+    }
   }
 }
