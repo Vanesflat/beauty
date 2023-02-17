@@ -5,15 +5,27 @@
   padding: 9px;
   width: 170px;
   border-radius: 40px;
+  transition: all .3s ease;
 
   &--white {
     border: 2px solid $green;
+
+    &:hover {
+      color: $white;
+      background-color: $green;
+    }
   }
 
   &--green {
     color: $white;
     background-color: $green;
     border: 2px solid $white;
+
+    &:hover {
+      color: $green;
+      background-color: $white;
+      border-color: $green;
+    }
   }
 
   &--small {

@@ -23,4 +23,11 @@
   &__copyright {
     flex-basis: 60%;
   }
+
+  &__link {
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
