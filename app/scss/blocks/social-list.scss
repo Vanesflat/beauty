@@ -1,0 +1,14 @@
+.social-list {
+  display: flex;
+  gap: 20px;
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border: 2px solid $green;
+    border-radius: 50%;
+  }
+}
